@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 60px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .card {
+    width: 75%;
+    text-align: center;
+  }
+  .container {
+    padding: 0px 12px;
+    text-align: center;
+  }
+  img{
+      width: 300px;
+      height: 250px;
+      text-align: center;
+  }
+  .title{
+    font-size: medium;
+      color: lightskyblue;
+  }
+  p {
+      font-size: medium;
+      width: 80%;
+      text-align: justify;
+      text-align-last: center;
+  }
